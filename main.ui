@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::StrongFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Business Intelligence System</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Pics/gears30.png</normaloff>../Pics/gears30.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="vtasprodmes">
+   <property name="icon">
+    <iconset>
+     <normaloff>imagenes/pie16.png</normaloff>imagenes/pie16.png</iconset>
+   </property>
+   <property name="text">
+    <string>Montly_Sales_Products</string>
+   </property>
+  </action>
+  <action name="Resumen_Anual">
+   <property name="icon">
+    <iconset>
+     <normaloff>imagenes/statis16.png</normaloff>imagenes/statis16.png</iconset>
+   </property>
+   <property name="text">
+    <string>Resumen Anual</string>
+   </property>
+  </action>
+  <action name="VentasxCli">
+   <property name="icon">
+    <iconset>
+     <normaloff>imagenes/statistics16.png</normaloff>imagenes/statistics16.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ventas x Cliente</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
